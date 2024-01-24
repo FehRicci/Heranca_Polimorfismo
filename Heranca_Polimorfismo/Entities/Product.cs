@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
 
 namespace Heranca_Polimorfismo.Entities
 {
@@ -19,7 +15,7 @@ namespace Heranca_Polimorfismo.Entities
             Price = price;
         }
 
-        public string PriceTag()
+        public virtual string PriceTag()
         {
             return Name + " $ " + Price.ToString("F2");
         }
