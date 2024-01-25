@@ -19,7 +19,7 @@ namespace Heranca_Polimorfismo.Entities
 
         public override string PriceTag()
         {
-            return Name + " (used) $ " + Price.ToString("F2") + "(Manufacture date: " + ManufactureDate + ")";
+            return Name + " (used) $ " + Price.ToString("F2") + " (Manufacture date: " + ManufactureDate.ToString("d") + ")";
         }
     }
 }
